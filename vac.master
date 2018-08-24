@@ -1,20 +1,122 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="vac.master.cs" Inherits="vac" %>
 
 <!DOCTYPE html>
-
-<html>
-<head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/image/favicon.ico" type="image/x-icon">
+    <title>Study Abroad Consultants | Overseas Education Consultants</title>
+    <meta name="description" content="Study abroad consultants in Noida for New Zealand, Australia, Canada and UK. Overseas education consultants. Free consultancy for education abroad." />
+    <meta name="Keywords" content="IELTS Coaching in Noida, PTE Coaching in Noida,IELTS, PTE, Study abroad consultants, Overseas education consultants, Free consultancy for education abroad" />
+    <meta itemprop="name" content="Study Abroad Consultants | Overseas Education Consultants" />
+    <meta itemprop="description" content="Study abroad consultants in Delhi for New Zealand, Australia, Canada and UK. Overseas education consultants. Free consultancy for education abroad." />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/mdb.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/style-header.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="assets/js/modernizr.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body data-spy="scroll" data-target="#scroll-spy">
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <header id="Home">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/image/Vac-tranparent-logo3.png" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#Home">HOME <span class="sr-only">(current)</span> </a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#WhyiExam">ABOUT VAC</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#What-our-clients-have-to-say">ILETS/PTE</a> </li>
+                            <li class="nav-item"><a class="nav-link active" href="#What-our-clients-have-to-say">COUNSELLING</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#Blog">BLOG</a> </li>
+                            <li class="nav-item"><a class="nav-link btn btn-danger btn-md login" href="#">Request for Demo</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer class="page-footer text-md-left stylish-color-dark pt-5 pl-0">
+                <div class="container mt-5 mb-4 text-md-left wow fadeIn" data-wow-delay=".50s">
+                    <div class="row mt-3">
+                        <div class="col-md-3 ">
+                            <h5>Enquiry</h5>
+                            <p><i class="icon-phone blue-text"></i>+91 8810435500</p>
+                            <p><i class="icon-phone blue-text"></i>+91 9910562828</p>
+                            <p><i class="icon-envelope blue-text"></i>vacglobaleducation@gmail.com</p>
+                            <p><i class="icon-location-pin blue-text"></i>Basement, Bhagwan Sahay Complex, Naya Bans, Sector 15, Noida - 201301</p>
+                        </div>
+                        <div class="ccol-xl-2 mx-auto mb-r hidden-xs">
+                            <h5>Company</h5>
+                            <p><a>About Us</a></p>
+                            <p><a>Customer</a></p>
+                            <p><a>Partners</a></p>
+                            <p><a>Services</a></p>
+                            <p><a>Media & Awards</a></p>
+                            <p><a>Career</a></p>
+                        </div>
+                        <div class="ccol-xl-2 mx-auto mb-r hidden-xs">
+                            <h5>Resources</h5>
+                            <p><a>Case Studies</a></p>
+                            <p><a>Ebooks</a></p>
+                            <p><a>Infographics</a></p>
+                            <p><a>Industry Guides</a></p>
+                            <p><a>Webinars</a></p>
+                            <p><a>Blog</a></p>
+                        </div>
+                        <div class="ccol-xl-2 mx-auto mb-r hidden-xs">
+                            <h5>Other</h5>
+                            <p><a>Subject Matter Experts</a></p>
+                            <p><a>FAQs</a></p>
+                            <p><a>Candidate Hub</a></p>
+                            <p><a>Savings Calculator</a></p>
+                            <p><a>Testimonials</a></p>
+                            <p><a class="btn btn-outline-red btn-sm">Login</a></p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3 text-right border-left">
+                            <h5 class="social">Connect with us, we are social</h5>
+                            <div class="row row-social">
+                                <div class="fb-page" style="width: 100%;" data-href="https://www.facebook.com/VACglobalEducation/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                                    <blockquote cite="https://www.facebook.com/VACglobalEducation/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VACglobalEducation/">VAC Global Education</a></blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 text-left">
+                                <p><a>Terms of use </a>| <a>Privacy policy</a></p>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <p>Copyright &copy; 2018 <a>VAC Global</a> | All Rights Reserved. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="assets/js/jquery-3.2.1.min.js"></script>
+            <script src="assets/js/owl.carousel.js"></script>
+            <script src="assets/js/popper.min.js"></script>
+            <script src="assets/js/bootstrap.min.js"></script>
+            <script src="assets/js/mdb.min.js"></script>
+            <script src="assets/js/wow.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script>new WOW().init(); </script>
     </form>
 </body>
 </html>
