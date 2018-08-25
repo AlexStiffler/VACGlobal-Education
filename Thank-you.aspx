@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/vac.master" AutoEventWireup="true" CodeFile="Thank-you.aspx.cs" Inherits="Thank_you" %>
 
-<<<<<<< HEAD
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -20,8 +19,6 @@
                                 <p class="card-text">Your message has been sent <span class="green-text">successfully</span>.</p>
                                 <p class="card-text">One of our expert counsellor will get in touch with you, at earliest.</p>
                                 <a href="http://www.vacglobaleducation.com/" class="btn btn-primary">Go to main website</a> </div>
-=======
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     </header>
     <style>
         @media (max-width: 740px) {
@@ -49,15 +46,12 @@
                             <p class="card-text">Your message has been sent <span class="green-text">successfully</span>.</p>
                             <p class="card-text">One of our expert counsellor will get in touch with you, at earliest.</p>
                             <a href="http://www.vacglobaleducation.com/" class="btn btn-primary">Go to main website</a>
->>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
 =======
     </div>
->>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
 </asp:Content>
 

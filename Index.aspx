@@ -42,19 +42,16 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                         <ul class="navbar-nav ml-auto">
-<<<<<<< HEAD
                           <li class="nav-item active"><a class="nav-link" href="index.aspx">HOME <span class="sr-only">(current)</span> </a></li>
                             <li class="nav-item"><a class="nav-link active" href="about-us.aspx">ABOUT VAC</a> </li>
                             <li class="nav-item"><a class="nav-link" href="ielts-pte.aspx">IELTS/PTE</a> </li>
                             <li class="nav-item"><a class="nav-link active" href="counselling.aspx">COUNSELLING</a> </li>
                             <li class="nav-item"><a class="nav-link" href="blog.aspx">BLOG</a> </li>
-=======
                             <li class="nav-item active"><a class="nav-link" href="#Home">HOME <span class="sr-only">(current)</span> </a></li>
                             <li class="nav-item"><a class="nav-link active" href="#WhyiExam">ABOUT VAC</a> </li>
                             <li class="nav-item"><a class="nav-link" href="#What-our-clients-have-to-say">ILETS/PTE</a> </li>
                             <li class="nav-item"><a class="nav-link active" href="#What-our-clients-have-to-say">COUNSELLING</a> </li>
                             <li class="nav-item"><a class="nav-link" href="#Blog">BLOG</a> </li>
->>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
                             <li class="nav-item"><a class="nav-link btn btn-danger btn-md login" href="#">Request for Demo</a> </li>
                         </ul>
                     </div>
@@ -509,8 +506,4 @@
         <script type="text/javascript">function onlyNumbers(event) { var e = event || evt; var charCode = e.which || e.keyCode; if (charCode > 31 && (charCode < 48 || charCode > 57)) return false; return true; }</script>
     </form>
 </body>
-<<<<<<< HEAD
-</html>>
-=======
 </html>
->>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
