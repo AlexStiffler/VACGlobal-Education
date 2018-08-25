@@ -48,8 +48,8 @@ public partial class Index : System.Web.UI.Page
                     "<p style='font-size:14px;font-family: Helvetica, Arial, sans-serif;line-height: .5;color: #222;padding: 0'>Website: <a href='http://VACGlobaleducation.com'>www.VACGlobaleducation.com</a></p>",
                     "<p style='font-size:14px;font-family: Helvetica, Arial, sans-serif;line-height: .5;color: #222;padding: 0'>Email: <a href='mailto:vacglobaleducation@gmail.com' target='_blank'>vacglobaleducation@gmail.com</a></p>"
                 }));
-            dal.sendMail(this.txtemailid.Text.Trim(),"akhilonline.9@gmail.com", stringBuilder1.ToString(), "VAC Global Education : Test Prep | Study Abroad Consultant", null, null,null);
-           
+            dal.sendMail(this.txtemailid.Text.Trim(), "akhilonline.9@gmail.com", stringBuilder1.ToString(), "VAC Global Education : Test Prep | Study Abroad Consultant", null, null, null);
+
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(string.Concat(new string[]
                 {
@@ -69,9 +69,9 @@ public partial class Index : System.Web.UI.Page
                     this.GetIPAddress()
                 }));
             stringBuilder.Append("</td></tr></tbody></table><br/><br/></br>");
-            dal.sendMail("vacglobaleducation@gmail.com, neeraj.vac@gmail.com", "akhilonline.9@gmail.com", stringBuilder.ToString(), "Online Enquiry Form", null, null,null);
+            dal.sendMail("vacglobaleducation@gmail.com, neeraj.vac@gmail.com", "akhilonline.9@gmail.com", stringBuilder.ToString(), "Online Enquiry Form", null, null, null);
             ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "alert('Form Submitted successfully');", true);
-            
+
         }
         catch (Exception ex)
         {
