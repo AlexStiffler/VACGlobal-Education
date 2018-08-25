@@ -47,11 +47,6 @@
                             <li class="nav-item"><a class="nav-link" href="ielts-pte.aspx">IELTS/PTE</a> </li>
                             <li class="nav-item"><a class="nav-link active" href="counselling.aspx">COUNSELLING</a> </li>
                             <li class="nav-item"><a class="nav-link" href="blog.aspx">BLOG</a> </li>
-                            <li class="nav-item active"><a class="nav-link" href="#Home">HOME <span class="sr-only">(current)</span> </a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#WhyiExam">ABOUT VAC</a> </li>
-                            <li class="nav-item"><a class="nav-link" href="#What-our-clients-have-to-say">ILETS/PTE</a> </li>
-                            <li class="nav-item"><a class="nav-link active" href="#What-our-clients-have-to-say">COUNSELLING</a> </li>
-                            <li class="nav-item"><a class="nav-link" href="#Blog">BLOG</a> </li>
                             <li class="nav-item"><a class="nav-link btn btn-danger btn-md login" href="#">Request for Demo</a> </li>
                         </ul>
                     </div>
@@ -278,7 +273,7 @@
                                             <div class="row">
                                                 <div class="col-sm- hidden-xs"></div>
                                                 <div class="col-sm-2">
-                                                    <img src="https://media.licdn.com/dms/image/C4D03AQHG8fuyVEIUKA/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=uB5X2326qkgAKAaa-2euJjSt1bUT9ASIPe0_jh_1wZo" class="rounded-circle img-fluid">
+                                                    <img src="assets/image/AKhil-Paytm.jpg" class="rounded-circle img-fluid">
                                                 </div>
                                                 <div class="col-sm-10">
                                                     <p><i class="fa fa-quote-left"></i>VACglobal is packed with all the information you ever need for the IELTS exam. Their tips provide insights and reminders may help you to do your best in each component of the test. VACglobal Education is my recommendation for all test takers for preparation, course, resources and testing. They offer face-to-face preparation. <i class="fa fa-quote-right"></i></p>

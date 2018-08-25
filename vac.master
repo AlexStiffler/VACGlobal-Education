@@ -2,9 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
 <head runat="server">
-<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -28,8 +26,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <script src="assets/js/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server">
+    <asp:ContentPlaceHolder ID="Head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body data-spy="scroll" data-target="#scroll-spy">
@@ -50,11 +47,6 @@
                             <li class="nav-item"><a class="nav-link" href="ielts-pte.aspx">IELTS/PTE</a> </li>
                             <li class="nav-item"><a class="nav-link active" href="counselling.aspx">COUNSELLING</a> </li>
                             <li class="nav-item"><a class="nav-link" href="blog.aspx">BLOG</a> </li>
-                            <li class="nav-item active"><a class="nav-link" href="#Home">HOME <span class="sr-only">(current)</span> </a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#WhyiExam">ABOUT VAC</a> </li>
-                            <li class="nav-item"><a class="nav-link" href="#What-our-clients-have-to-say">ILETS/PTE</a> </li>
-                            <li class="nav-item"><a class="nav-link active" href="#What-our-clients-have-to-say">COUNSELLING</a> </li>
-                            <li class="nav-item"><a class="nav-link" href="#Blog">BLOG</a> </li>
                             <li class="nav-item"><a class="nav-link btn btn-danger btn-md login" href="#">Request for Demo</a> </li>
                         </ul>
                     </div>
@@ -70,9 +62,6 @@
                             <p><i class="icon-phone blue-text"></i><a href="tel:918810435500">+91 8810435500</a></p>
                             <p><i class="icon-phone blue-text"></i><a href="tel:919910562828">+91 9910562828</a></p>
                             <p><i class="icon-envelope blue-text"></i><a href="mailto:vacglobaleducation@gmail.com" target="_top">vacglobaleducation@gmail.com</a></p>
-                            <p><i class="icon-phone blue-text"></i>+91 8810435500</p>
-                            <p><i class="icon-phone blue-text"></i>+91 9910562828</p>
-                            <p><i class="icon-envelope blue-text"></i>vacglobaleducation@gmail.com</p>
                             <p><i class="icon-location-pin blue-text"></i>Basement, Bhagwan Sahay Complex, Naya Bans, Sector 15, Noida - 201301</p>
                         </div>
                         <div class="ccol-xl-2 mx-auto mb-r hidden-xs">
@@ -133,8 +122,6 @@
             <script src="assets/js/wow.js"></script>
             <script src="assets/js/main.js"></script>
             <script>$("#owl-demo").owlCarousel({ navigation: true, slideSpeed: 300, paginationSpeed: 400, autoPlay: true, singleItem: true, transitionStyle: 'fade' }); </script>
-            <script>new WOW().init(); </script>
-            <script type="text/javascript">function onlyNumbers(event) { var e = event || evt; var charCode = e.which || e.keyCode; if (charCode > 31 && (charCode < 48 || charCode > 57)) return false; return true; }</script>
             <script>new WOW().init(); </script>
     </form>
 </body>
