@@ -2,18 +2,30 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <head runat="server">
+=======
+<head>
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/image/favicon.ico" type="image/x-icon">
     <title>Study Abroad Consultants | Overseas Education Consultants</title>
+<<<<<<< HEAD
     <meta name="description" content="VAC Global Eduation | Study abroad consultants in Noida for New Zealand, Australia, Canada and UK. Overseas education consultants. Free consultancy for education abroad." />
     <meta name="Keywords" content="Visa Abroad Consultant, VAC global Education, VAC global, IELTS Coaching in Noida, PTE Coaching in Noida,IELTS, PTE, Study abroad consultants, Overseas education consultants, Free consultancy for education abroad" />
     <meta itemprop="name" content="VAC Global Eduation | Study Abroad Consultants | Overseas Education Consultants" />
     <meta itemprop="description" content="VAC Global Eduation | Study abroad consultants in Delhi for New Zealand, Australia, Canada and UK. Overseas education consultants. Free consultancy for education abroad." />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+=======
+    <meta name="description" content="Study abroad consultants in Noida for New Zealand, Australia, Canada and UK. Overseas education consultants. Free consultancy for education abroad." />
+    <meta name="Keywords" content="IELTS Coaching in Noida, PTE Coaching in Noida,IELTS, PTE, Study abroad consultants, Overseas education consultants, Free consultancy for education abroad" />
+    <meta itemprop="name" content="Study Abroad Consultants | Overseas Education Consultants" />
+    <meta itemprop="description" content="Study abroad consultants in Delhi for New Zealand, Australia, Canada and UK. Overseas education consultants. Free consultancy for education abroad." />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
     <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/mdb.min.css" rel="stylesheet" />
@@ -22,13 +34,20 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <script src="assets/js/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<<<<<<< HEAD
     <asp:ContentPlaceHolder ID="head" runat="server">
+=======
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server">
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
     </asp:ContentPlaceHolder>
 </head>
 <body data-spy="scroll" data-target="#scroll-spy">
     <form id="form1" runat="server">
+<<<<<<< HEAD
         <div id="fb-root"></div>
         <script>(function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+=======
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
         <header id="Home">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
                 <div class="container">
@@ -38,16 +57,28 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                         <ul class="navbar-nav ml-auto">
+<<<<<<< HEAD
                             <li class="nav-item active"><a class="nav-link" href="index.aspx">HOME <span class="sr-only">(current)</span> </a></li>
                             <li class="nav-item"><a class="nav-link active" href="about-us.aspx">ABOUT VAC</a> </li>
                             <li class="nav-item"><a class="nav-link" href="ielts-pte.aspx">IELTS/PTE</a> </li>
                             <li class="nav-item"><a class="nav-link active" href="counselling.aspx">COUNSELLING</a> </li>
                             <li class="nav-item"><a class="nav-link" href="blog.aspx">BLOG</a> </li>
+=======
+                            <li class="nav-item active"><a class="nav-link" href="#Home">HOME <span class="sr-only">(current)</span> </a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#WhyiExam">ABOUT VAC</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#What-our-clients-have-to-say">ILETS/PTE</a> </li>
+                            <li class="nav-item"><a class="nav-link active" href="#What-our-clients-have-to-say">COUNSELLING</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#Blog">BLOG</a> </li>
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
                             <li class="nav-item"><a class="nav-link btn btn-danger btn-md login" href="#">Request for Demo</a> </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <footer class="page-footer text-md-left stylish-color-dark pt-5 pl-0">
@@ -55,9 +86,15 @@
                     <div class="row mt-3">
                         <div class="col-md-3 ">
                             <h5>Enquiry</h5>
+<<<<<<< HEAD
                             <p><i class="icon-phone blue-text"></i><a href="tel:918810435500">+91 8810435500</a></p>
                             <p><i class="icon-phone blue-text"></i><a href="tel:919910562828">+91 9910562828</a></p>
                             <p><i class="icon-envelope blue-text"></i><a href="mailto:vacglobaleducation@gmail.com" target="_top">vacglobaleducation@gmail.com</a></p>
+=======
+                            <p><i class="icon-phone blue-text"></i>+91 8810435500</p>
+                            <p><i class="icon-phone blue-text"></i>+91 9910562828</p>
+                            <p><i class="icon-envelope blue-text"></i>vacglobaleducation@gmail.com</p>
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
                             <p><i class="icon-location-pin blue-text"></i>Basement, Bhagwan Sahay Complex, Naya Bans, Sector 15, Noida - 201301</p>
                         </div>
                         <div class="ccol-xl-2 mx-auto mb-r hidden-xs">
@@ -117,9 +154,13 @@
             <script src="assets/js/mdb.min.js"></script>
             <script src="assets/js/wow.js"></script>
             <script src="assets/js/main.js"></script>
+<<<<<<< HEAD
             <script>$("#owl-demo").owlCarousel({ navigation: true, slideSpeed: 300, paginationSpeed: 400, autoPlay: true, singleItem: true, transitionStyle: 'fade' }); </script>
             <script>new WOW().init(); </script>
             <script type="text/javascript">function onlyNumbers(event) { var e = event || evt; var charCode = e.which || e.keyCode; if (charCode > 31 && (charCode < 48 || charCode > 57)) return false; return true; }</script>
+=======
+            <script>new WOW().init(); </script>
+>>>>>>> 201b21b16b0017e10c46b671f1e4b6748974cd0f
     </form>
 </body>
 </html>
